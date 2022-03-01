@@ -238,7 +238,7 @@ margin-left: 50px;
 
 
 .tweet_png{
-  margin-left: 55px;
+  margin-left: 65px;
   height: 270px;
   width: 470px;
   border-radius:20px;
@@ -249,6 +249,8 @@ margin-left: 50px;
   padding-left: 80px;
   padding-bottom: 15px;
 }
+
+
 
 /* FEED END */
 
@@ -274,8 +276,35 @@ margin-left: 50px;
   background:#f5f8fa;
 
 }
+                                                 /*  background:#f5f8fa; */
+       /* RİGHT-PART-START */
 
-input::placeholder{
-  font-size: 18x;
-  
-}
+ .widget{
+   display: flex;
+   margin-top: 20px;
+ }
+ .widget a{
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 6px;
+ }
+
+ .widget input{
+   margin-left: 10px;
+   width: 350px;
+   border: none;
+   background:#f5f8fa;
+   border-radius: 20px;
+   height: 35px;
+   border: 1px solid #e6ecf0;
+ }
+
+ .widget input::placeholder{
+   text-align: center;
+   font-size: 17px;
+
+ }
+
+
+
+
