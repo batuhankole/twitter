@@ -119,8 +119,8 @@
   margin-top: 50px;
 }
 picture img {
- width: 100px;
- height: 100px;
+ width: 85px;
+ height: 85px;
   border-radius: 50%;
   object-fit: cover;
   padding: 20px;
@@ -146,11 +146,17 @@ margin-left: 50px;
   list-style: none;
   padding:10px ;
   font-size:10px;
+  
+}
+
+.icons:hover{
+  background-color: #e6ecf0;
+  border-radius: 20px;
+  transition: 0.5s;
+  width: max-content;
 
 }
-svg{
-  font-size:small;
-}
+
 
 .button2 {
   position: relative;
@@ -165,3 +171,65 @@ svg{
   font-size: 15px;
 }
 
+.tweet_box{
+  display: flex;
+  width: 100%;
+
+
+ 
+
+}
+.box_avatar{
+ 
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.box_avatar img{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+
+}
+
+.title{
+ 
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.user {
+  padding-top: 14px;
+  padding-left: 17px;
+  font-size: 13px;
+  font-weight:100;
+}
+
+.one_tweet{
+  display: inline-block;
+  font-size: 13px;
+  padding-left: 70px;
+  padding-bottom: 10px;
+}
+
+.box_icons{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #e6ecf0;
+  padding-bottom: 20px;
+}
+
+
+.tweet_png{
+  margin-left: 65px;
+  height: 300px;
+  width: 550px;
+  border-radius:20px;
+  margin-bottom: 20px;
+}
+
+.naruto{
+  padding-left: 80px;
+  padding-bottom: 15px;
+}
