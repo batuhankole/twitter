@@ -408,3 +408,18 @@ margin-left: 50px;
 }
 
 
+
+.lister{
+  margin-left: 23px;
+}
+
+
+
+.lister_href{
+  
+  margin-right: 20px;
+  font-size: 12px;
+  color: #696262;
+  cursor: pointer;
+  transition: all .5s;
+}
