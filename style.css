@@ -8,6 +8,7 @@
 
 }
 
+
 /* SİDEBAR */
 
 .container-lg {
@@ -423,3 +424,44 @@ margin-left: 50px;
   cursor: pointer;
   transition: all .5s;
 }
+
+/* RİİGHTPART END */
+
+
+/* messages */
+
+
+.messages{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 40px;
+  width: 450px;
+ 
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #e6ecf0;
+  box-shadow: 0 8px 24px rgb(149 157 165 / 20%);
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+
+.messages h4{
+ margin:15px 0 10px 20px;
+ font-size: 22px;
+}
+
+.messages_img{
+  margin: 015px;
+  display: flex;
+
+}
+
+.messages_img svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+
+}
+
